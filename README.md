@@ -10,6 +10,13 @@ A Very Good Project created by Very Good CLI.
 
 ---
 
+## Development build/watch
+To get all the generated code updated, run:
+```
+flutter packages pub run build_runner build --delete-conflicting-outputs
+```
+
+
 ## Getting Started 🚀
 
 This project contains 3 flavors:
